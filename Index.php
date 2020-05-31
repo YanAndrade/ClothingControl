@@ -21,9 +21,10 @@
 
         <form>
         <a class="btn btn-primary" href="login\login.php" role="button">Login</a>
+        </br>
+        </br>
         <a class="btn btn-primary" href="cadastro\cadastro.php" role="button">Cadastro</a>
        
-    
         </form>
     </div>
 
