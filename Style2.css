@@ -1,0 +1,305 @@
+/***********************
+*       ROLAGEM        *
+***********************/
+body{ /*tratamento da rolagem do site*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/***********************
+*       1ª FUNDO       *
+***********************/
+
+
+
+/***********************
+*                      *
+***********************/
+#imghome{
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+
+.hero-text{ /*Frase de efeito*/
+    color: white;
+    margin-bottom: 25px;
+}
+
+.btn{ /*tratamento do botão*/
+    padding: 5px 20px;
+    border: 2px solid #ffdd15;
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+
+.header-buttons a{ /*letras dentro do botão*/
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.header-buttons a.btn-full:hover{ /*tratamento de dentro do botão full*/
+    background-color: #ffdd15;
+    color: black;
+}
+
+.header-buttons a.btn-half:hover{ /*tratamento de dentro do botão half*/
+    background-color: #ffdd15;
+    color: black;
+}
+
+
+/***********************
+*       NAVBAR        *
+***********************/
+.navbar{
+    background-color: black;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-item{
+    text-align: center; /*Posição*/
+    padding: 2px;
+}
+.nav-link{
+    font-size: 20px; /*Tamanho dos itens*/
+    transition: 1s all ease;
+}
+
+.nav-link:hover{
+    color: #ffdd15;
+}
+
+
+/***********************
+*    CARD-ANIMADO      *
+***********************/
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #ffdd15;
+    border-color: #ffdd15;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #ffdd15;
+    background-color: black;
+    border-color: black;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #ffdd15;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: black !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: black !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/***********************
+*       ATLETAS       *
+***********************/
+
+.testimonials{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Imagens/ARTE3-SITE.png);
+    height: 102vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.atletas{
+    color: white;
+    margin-top: -4%;
+}
+
+#card-atleta{
+    text-align: center;
+    width: 65%;
+    height: 95%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+
+/***********************
+*       Modal       *
+***********************/
+
+#bot1{
+    text-align: center;
+}
+
+#exampleFormControlFile1{
+    margin-left: 10%;
+}
+
+#exampleFormControlSelect1{
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+/***********************
+*       CONTATO        *
+***********************/
+
+
+/***********************
+*        FOOTER        *
+***********************/
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.fab{
+    color: white;
+    font-size: 30px;
+
+}
+
+.primeiro-footer{
+    margin-top: 2%;
+}
+
+.segundo-footer{
+    margin-top: 2%;
+}
+
+.terceiro-footer{
+    margin-top: 2%;
+}
+
+.quarto-footer{
+    margin-top: 2%;
+}
+
+.h4, h4{
+    color: #ffdd15;
+}
+
+
+a{
+    color: white;
+    transition: 1s all ease;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+
+

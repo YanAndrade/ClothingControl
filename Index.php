@@ -5,26 +5,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" type="text/css" href="estiloindex.css">
+    <link rel="stylesheet" type="text/css" href="estilologin.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Clothing Control</title>
+    <title>Login</title>
   </head>
   <body>
     
-    <div class="clothing">
+    <div class="login">
         <img src="img/user.png" class="usuario" width="100" height="100" alt="">
-        <h1>Clothing Control</h1>
+        <h1>Login</h1>
 
         <form>
-        <a class="btn btn-primary" href="login\login.php" role="button">Login</a>
-        </br>
-        </br>
-        <a class="btn btn-primary" href="cadastro\cadastro.php" role="button">Cadastro</a>
-       
+
+            <p>Usuário</p>
+            <input type="text" name="" placeholder="Insira o nome">
+            <p>Senha</p>
+            <input type="password" name="" placeholder="Insira a senha">
+            <input type="submit" name="" value="Login">
+
+            |
+            <a href="cadastro.php">Cadastre-se</a>
+
         </form>
     </div>
 
