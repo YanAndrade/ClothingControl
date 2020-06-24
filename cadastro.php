@@ -17,7 +17,7 @@
     
     <div class="login">
         <img src="img/user.png" class="usuario" width="100" height="100" alt="">
-        <h1>Login</h1>
+        <h1>Cadastro</h1>
 
         <form>
             <p>Usuário</p>
