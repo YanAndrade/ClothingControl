@@ -1,0 +1,17 @@
+#main-nav {
+    background-color: #000;
+
+    a {
+        color: #FFF;
+
+        &.dropdown-item {
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+    .dropdown-menu {
+        background-color: #000;;
+    }
+}
